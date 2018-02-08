@@ -1,0 +1,19 @@
+{
+  "name": "nightwatch",
+  "version": "1.0.0",
+  "description": "a e2e test js tool",
+  "main": "index.js",
+  "dependencies": {
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test":"nightwatch tests/test.js"
+  },
+  "keywords": [
+    "nightwatch",
+    "auto",
+    "test"
+  ],
+  "author": "liubaihui",
+  "license": "ISC"
+}
