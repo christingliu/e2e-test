@@ -10,5 +10,5 @@
 > * second,create directory to be your root project.new bin directory to save selenium-server and webDriver binary file.
 > * third, download current project ,install -g nightwatch.
 > * last, use npm run test command.
-------
+---
  package.json comment shoud be out when you use it
