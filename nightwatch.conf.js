@@ -36,8 +36,13 @@ module.exports={
     },
     "chrome":{
       "desiredCapabilities": {
-         "browserName": "firefox"
+         "browserName": "chrome"
        }
+    },
+    "firefox":{
+      "desiredCapabilities":{
+        "browserName":"firefox"
+      }
     }
   }
 }
