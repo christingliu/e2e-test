@@ -7,7 +7,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test":"nightwatch tests/test.js"
+    "env":"nightwatch --env firefox",//可以改变当前运行的环境 default
+    "test":"nightwatch tests"//开辟多个child process 对于多个测试用例
   },
   "keywords": [
     "nightwatch",
