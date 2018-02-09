@@ -11,4 +11,4 @@
 > * third, download current project ,install -g nightwatch.
 > * last, use npm run test command.
 ### using it 
- package.json comment shoud be out when you use it
+    package.json comment shoud be out when you use it
