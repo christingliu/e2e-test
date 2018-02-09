@@ -1,13 +1,13 @@
-{
-  "src_folders" : ["tests"],
-  "output_folder" : "reports",
-  "custom_commands_path" : "",
-  "custom_assertions_path" : "",
-  "page_objects_path" : "",
-  "globals_path" : "",
-   "test_workers":true,
+module.exports={
+  "src_folders":["tests"],
+  "output_folder":"reports",
+  "custom_commands_path":"",
+  "custom_assertions_path":"",
+  "page_objects_path":"",
+  "globals_path":"",
+  "test_workers":true,
 
-  "selenium" : {
+  "selenium":{
     "start_process" :true,
     "server_path" : "bin/selenium-server-standalone-3.8.1.jar",
     "log_path" : "",
@@ -19,7 +19,7 @@
     }
   },
  
-  "test_settings" : {
+  "test_settings":{
     "default" : {
       "launch_url" : "http://localhost",
       "selenium_port"  : 4444,
@@ -30,13 +30,13 @@
         "path" : ""
       },
       "desiredCapabilities": {
-         "browserName":"firefox",
+         "browserName":"chrome",
          "marionette":true
       }
     },
     "chrome":{
       "desiredCapabilities": {
-         "browserName": "chrome"
+         "browserName": "firefox"
        }
     }
   }
